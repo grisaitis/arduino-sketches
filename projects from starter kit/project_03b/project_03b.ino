@@ -65,6 +65,7 @@ void loop(){
   printTemperature(getTemperatureFromSensor(sensorPin));
   Serial.println();
   setLEDs(getTemperatureFromSensor(sensorPin),baselineTemperature);
+  delay(1);
 }
 
 
